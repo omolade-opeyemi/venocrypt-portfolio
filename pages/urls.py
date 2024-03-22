@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import indexPage, detailPage, haloSphere,client,partners,commanders,venocrypt, haloweb, supercrypt, contract
+from .views import indexPage, detailPage, haloSphere,client,partners,commanders,venocrypt, haloweb, supercrypt, contract, orange_card
 
 urlpatterns = [
     path('', indexPage),
@@ -11,5 +11,6 @@ urlpatterns = [
     path('website/', haloweb, name='haloweb'),
     path('venocrypt/', venocrypt, name='venocrypt'),
     path('supercrypt/', supercrypt, name = 'supercrypt'),
-    path('contract/', contract, name='contract')
+    path('contract/', contract, name='contract'),
+    path('orange-card/', orange_card, name='orange-card')
 ]

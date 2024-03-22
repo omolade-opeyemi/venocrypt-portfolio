@@ -32,3 +32,8 @@ def supercrypt(request):
 def contract(request):
     return render(request, 'contract.html')
 
+def orange_card(request):
+    return render(request, 'orange-card.html')
+
+
+
